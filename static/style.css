@@ -1,0 +1,30 @@
+.file-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .file-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .file-section p {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0062cc;
+  }
+  

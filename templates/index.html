@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask-Painter</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <div class="file-section">
+            <h2>File Download</h2>
+            <p>Click the button below to download the file.</p>
+            <a href="/download" download="output.txt" class="button">Download File</a>
+          </div>
+          
+          <div class="file-section">
+            <h2>File Upload</h2>
+            <p>Select a file to upload.</p>
+            <form action="/receive" method="post" enctype="multipart/form-data">
+              <input type="file" name="file">
+              <input type="submit" value="Upload" class="button">
+            </form>
+          </div>
+    </body>
+</html>
