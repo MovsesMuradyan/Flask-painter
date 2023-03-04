@@ -2,7 +2,7 @@
 #### Video Demo: <URL HERE>
 #### Description:
      
-#####My Project contains 2 subprograms
+##### My Project contains 2 subprograms
   
 I  : *The first is the C command line tool. which I started writing when I finished my C lectures.
      This command-line tool takes a BMP file (with 24-bit colors) and represents it in ASCII characters*
