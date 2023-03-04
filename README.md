@@ -8,9 +8,6 @@ I  : *The first is the C command line tool. which I started writing when I finis
      This command-line tool takes a BMP file (with 24-bit colors) and represents it in ASCII characters*
 
      Usage: ./painter -i ( input bmp file )
-     
-     #### OR
-     
      Usage: ./painter -i ( input bmp file ) -o ( output txt file )
   
 II : *he second one is flask code with html css . it is simple web page.
