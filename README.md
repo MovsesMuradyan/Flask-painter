@@ -1,26 +1,46 @@
-# Flask-painter
-#### Video Demo: <URL HERE>
-#### Description:
+# 🎨 Flask-Painter  
+*Because your BMPs deserve a second life—as ASCII art!*
 
-##### My Project contains 2 subprograms
+---
 
-I  : The first is the C command line tool. which I started writing when I finished my C lectures.
-     This command-line tool takes a BMP file (with 24-bit colors) and represents it in ASCII characters.
-     This program requires the BMP file to be with a BM Signature.
-     The program is capable of printing/outputting the image in 2 ways depending on the user's preference.
-     The first method of outputting is by printing the image in the terminal. This method is preferable if the user
-     doesn't need the transformed image to be stored in its computer and just wants the picture to be printed for a one time use.
-     The second method of outputting is going to store a output txt file with the ASCII format. This is method, unlike the first method,
-     gives you access to using the ASCII formated BMP permentaly for multiude of use for the user's liking.
-     
-     The first method Usage
-     ./painter -i ( input bmp file ) 
-     The second method Usage
-     ./painter -i ( input bmp file ) -o ( output txt file )
+## 🧠 Project Overview
 
-II : The second one is flask code with html css .
-     This Web page is used as an UI ( User Interface )for my c command line tool.
-     This page takes an input of a BMP file for the c program.
-	 Later after processing the BMP file it gives the prompt to download the formated txt file.
-     With this method of using the program it gives access to multiple users to use it without downloading the tool and having to write any commands in the terminal.
-     This web page is a much more convenient way of using the tool as it is very straight forward and user friendly.
+**Flask-Painter** is a two-part project that combines the power of C and the magic of Flask to turn boring old BMP files into glorious ASCII art.
+
+One part is a fast, no-nonsense command-line tool written in C. The other is a web interface for those who prefer clicking buttons over writing commands. Together, they bring art to the terminal *and* the browser.
+
+---
+
+## I. C Command-Line Tool: *ASCII-fy All the Things!*
+
+This tool was born after I finished my C lectures and thought, “Why not make a program that turns images into text?” (Because obviously, that’s what normal people do.)
+
+### 💡 What It Does:
+- Accepts 24-bit BMP files (must have that sweet `BM` signature).
+- Converts the image into ASCII using characters like `@`, `#`, `%`, `*`, and more.
+- Offers two output options:
+
+#### 1️⃣ Terminal Output:
+Prints the ASCII art directly to your terminal. Great for one-time viewing, impressing your classmates.
+
+- The first method Usage
+```  ./painter -i ( input bmp file ) ```
+- The second method Usage
+```  ./painter -i ( input bmp file ) -o ( output txt file )```
+
+---
+
+## II. 🌐 Flask Web Interface: A Simple and Accessible UI
+
+To complement the command-line tool, I developed a web interface using **Flask**, along with **HTML** and **CSS**, to make the program more accessible to a wider audience.
+
+### 💡 What It Does:
+- Provides a clean and user-friendly interface for uploading BMP files.
+- Sends the image to the backend, where the C program processes it into ASCII art.
+- Once complete, the user is prompted to download the ASCII-formatted `.txt` file.
+
+### ✅ Benefits:
+- No need to use the terminal or install additional tools.
+- Multiple users can access and use the tool via a web browser.
+- Designed to be straightforward and easy to use for all skill levels.
+
